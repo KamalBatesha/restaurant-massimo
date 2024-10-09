@@ -8,7 +8,7 @@ export default function Navbar() {
   // temperary
   const user=false
   return (
-    <div className="h-12 md:h-24 flex items-center justify-between text-red-500 p-4 border-b-2 border-b-red-500  lg:px-[75px] xl:px-40">
+    <div className="h-12 w-full md:h-24 flex items-center justify-between text-red-500 p-4 border-b-2 border-b-red-500  lg:px-[75px] xl:px-40">
       {/* left links */}
       <div className="hidden md:flex md:gap-4 md:items-center flex-1">
         <Link className=" capitalize" href="/">home page</Link>
