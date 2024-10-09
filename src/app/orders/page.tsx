@@ -1,6 +1,6 @@
 import React from "react";
 
-export function OrdersPage() {
+export default function OrdersPage() {
   return (
     <div className="p-4 lg:px-20 xl:px-40 min-h-[calc(100vh-6rem)] md:min-h-[calc(100vh-9rem)]">
       <table className="w-full border-separate border-spacing-3">
@@ -41,4 +41,3 @@ export function OrdersPage() {
   );
 };
 
-export default OrdersPage;
