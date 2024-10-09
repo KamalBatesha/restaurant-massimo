@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased`}>
+      <body className={`antialiased w-screen overflow-x-hidden`}>
         <Notification />
         <Navbar />
         {children}
